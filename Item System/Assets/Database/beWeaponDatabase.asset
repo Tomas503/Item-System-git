@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Name: beWeaponDatabase
   m_EditorClassIdentifier: 
   database:
-  - _name: Knife
+  - _name: Short Sword
     _icon: {fileID: 0}
-    _value: 1
-    _burden: 2
+    _value: 10
+    _burden: 1
     _quality:
       _name: Uncommon
       _icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-    _minDamage: 3
-    _durability: 4
-    _maxDurability: 5
-    _prefab: {fileID: 0}
+    _minDamage: 12
+    _durability: 15
+    _maxDurability: 20
+    _prefab: {fileID: 182576, guid: b014547b7da02486b85295d445062eec, type: 2}

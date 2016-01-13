@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bergzerg Arcade\Item System\Scripts\EquipmentSlot.cs" />
      <Compile Include="Assets\Bergzerg Arcade\Item System\Scripts\ISEquipmentSlot.cs" />
      <Compile Include="Assets\Bergzerg Arcade\Item System\Scripts\ISObject.cs" />
      <Compile Include="Assets\Bergzerg Arcade\Item System\Scripts\ISObjectDatabase.cs" />

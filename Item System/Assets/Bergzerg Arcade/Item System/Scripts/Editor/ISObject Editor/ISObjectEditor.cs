@@ -19,7 +19,7 @@ namespace BoredEagle.ItemSystem.Editor
 		{
 			ISObjectEditor window = EditorWindow.GetWindow<ISObjectEditor>();
 			window.minSize = new Vector2(800,600);
-			window.titleContent.text = "Item System";
+			window.titleContent = new GUIContent( "Item System");
 			window.Show();
 		}
 		

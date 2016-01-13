@@ -5,7 +5,7 @@ using System.Collections;
 namespace BoredEagle.ItemSystem
 {
 	[System.Serializable]
-	public class ISWeapon : ISObject, IISWeapon, IISDestructable, IISEquipable, IISGameobject
+	public class ISWeapon : ISObject, IISWeapon, IISDestructable, IISGameobject
 	{
 		[SerializeField] int _minDamage;
 		[SerializeField] int _durability;
@@ -13,7 +13,7 @@ namespace BoredEagle.ItemSystem
 		[SerializeField] ISEquipmentSlot _equipmentSlot;
 		[SerializeField] GameObject _prefab;
 		
-		
+		public EquipmentSlot equipmentSlot;
 		
 		public ISWeapon()
 		{
@@ -93,11 +93,7 @@ namespace BoredEagle.ItemSystem
 		{
 			get { return _equipmentSlot;}
 		}
-		
-		public bool Equip()
-		{
-			throw new System.NotImplementedException();
-		}
+
 		
 		
 		public GameObject Prefab
@@ -132,14 +128,15 @@ namespace BoredEagle.ItemSystem
 
 		public void DisplayEquipmentSlot()
 		{
-			GUILayout.Label("Equipment");
+			equipmentSlot = (EquipmentSlot) EditorGUILayout.EnumPopup("Equip Slot", equipmentSlot);
+
 		}
 
 
 
 		public void DisplayPrefab()
 		{
-			GUILayout.Label("Prefab");
+			_prefab = EditorGUILayout.ObjectField("Prefab", _prefab, typeof(GameObject), false)as GameObject;
 		}
 
 
