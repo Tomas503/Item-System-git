@@ -66,7 +66,7 @@ namespace BoredEagle.ItemSystem
 
 		public void DisplayIcon()
 		{
-			GUILayout.Label("Icon");
+			_icon = EditorGUILayout.ObjectField("Icon", _icon, typeof(Sprite), false)as Sprite;
 		}
 
 
@@ -97,6 +97,10 @@ namespace BoredEagle.ItemSystem
 			qualitySelectedIndex = EditorGUILayout.Popup("Quality", qualitySelectedIndex, option);
 			_quality = qdb.Get(SelectedQualityID);
 		}
+
+
+		//to be moved to the editor version of this class
+
 	
 	}
 }
