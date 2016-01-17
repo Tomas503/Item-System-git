@@ -8,19 +8,55 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ffa4eb374352489283c77e629ff22fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ecf7fa967e3d44568a801d9b3adbe90, type: 3}
   m_Name: beWeaponDatabase
   m_EditorClassIdentifier: 
   database:
   - _name: Knife
-    _icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    _icon: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     _value: 1
-    _burden: 1
+    _burden: 0
     _quality:
       _name: Common
       _icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    _minDamage: 21
-    _durability: 12
-    _maxDurability: 15
+    _minDamage: 12
+    _durability: 0
+    _maxDurability: 0
     _prefab: {fileID: 0}
     equipmentSlot: 5
+  - _name: Sword
+    _icon: {fileID: 0}
+    _value: 0
+    _burden: 0
+    _quality:
+      _name: Common
+      _icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    _minDamage: 0
+    _durability: 0
+    _maxDurability: 0
+    _prefab: {fileID: 0}
+    equipmentSlot: 0
+  - _name: Bow
+    _icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    _value: 0
+    _burden: 0
+    _quality:
+      _name: Common
+      _icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    _minDamage: 0
+    _durability: 0
+    _maxDurability: 0
+    _prefab: {fileID: 0}
+    equipmentSlot: 0
+  - _name: Club
+    _icon: {fileID: 0}
+    _value: 0
+    _burden: 0
+    _quality:
+      _name: Common
+      _icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    _minDamage: 0
+    _durability: 0
+    _maxDurability: 0
+    _prefab: {fileID: 0}
+    equipmentSlot: 0

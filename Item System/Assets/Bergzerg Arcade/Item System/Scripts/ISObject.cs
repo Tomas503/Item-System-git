@@ -13,7 +13,23 @@ namespace BoredEagle.ItemSystem
 		[SerializeField]int _burden;
 		[SerializeField]ISQuality _quality;
 		
-		 
+
+
+		public ISObject (ISObject item)
+		{
+			Clone( item);
+		}
+
+		public void Clone( ISObject item)
+		{
+			_name = item.Name;
+			_icon = item.Icon;
+			_value = item.Value;
+			_burden = item.Burden;
+			_quality = item.Quality;
+		}
+
+		   
 		#region IISObject implementation
 		
 		public string Name {

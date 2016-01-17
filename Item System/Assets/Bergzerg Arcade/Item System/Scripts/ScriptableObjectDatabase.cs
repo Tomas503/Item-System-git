@@ -30,7 +30,7 @@ namespace BoredEagle
 			EditorUtility.SetDirty(this);
 		}
 		
-		public void Romove(int index)
+		public void Remove(int index)
 		{
 			database.RemoveAt(index);
 			EditorUtility.SetDirty(this);

@@ -8,13 +8,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3304e3e3c1eb4dcfba8613cd090963a, type: 3}
+  m_Script: {fileID: 11500000, guid: 63573ff7cd44e4581b988fa892205caa, type: 3}
   m_Name: beQualityDatabase
   m_EditorClassIdentifier: 
   database:
   - _name: Common
     _icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   - _name: Uncommon
-    _icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
-  - _name: Rare
     _icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  - _name: Rare
+    _icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}

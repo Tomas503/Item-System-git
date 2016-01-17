@@ -62,7 +62,7 @@ namespace BoredEagle.ItemSystem.Editor
 					                               "Delete",
 					                               "Cancel"))
 					{
-						qualityDatabase.Romove(cnt);
+						qualityDatabase.Remove(cnt);
 					}
 					
 				}
